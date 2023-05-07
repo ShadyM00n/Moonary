@@ -1,0 +1,127 @@
+<title>Moonary</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<div id="taskbar" class="snipcss-NjhEL">
+  <div id="apps">
+    <button id="rammerhead-browser" class="buttondefault rammerhead-browser" data-link="/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2Fwrn%3Fqa%3Ft%24rat%3Fj%24q%3F%26gspc%3Fs%24smupcg%3Due%60%26ad%3F%26aaf%3Dpjc%26waat%3F8%24vgd%3F2chWKGwkKsvo63PR-ChUKnIiEJRiMA2OQDnmEAA6QCQ%24upl%3Fhvtrs'3C%250F'2Ddgmm-mpgnqowrae%2Crcmoephgaf.mre%250F%24uqg%3FAMvTau1%7Be5m6n2vdLoyuHWnjF0n1/">
+      <img src="https://duckos--fultonhorecky2.repl.co/system/media/rammerhead_icon.png" alt="" id="style-2Y84a" class="style-2Y84a">
+    </button>
+    <button id="meowzies-adventure" class="buttondefault meowzies-adventure" data-link="/service/hvtrs8%2F-wuw%2Crgdfiv.aoo%2F/">
+      <img src="/img/images.jpg" alt="" id="style-sAxSw" class="style-sAxSw">
+    </button>
+    <button id="minecraft" class="buttondefault minecraft" data-link="/service/hvtrs8%2F-cnaqskc%2Cmkngcpadt%2Cngt-%3Fhokn%3FCI3uxjjxiFm%3ASmaw/">
+      <img src="https://duckos--fultonhorecky2.repl.co/system/media/bloxd_icon.png" alt="" id="style-pOMHU" class="style-pOMHU">
+    </button>
+      <button id="kasmserver" class="buttondefault kasmserver" data-link="/service/hvtrs8%2F-dksaopd%2Ccmm-/">
+      <img src="/img/discord.png" alt="" id="style-ziJbr" class="style-ziJbr">
+    </button>
+    <button id="kasmserver" class="buttondefault kasmserver" data-link="/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2Fue%60hr/">
+      <img src="/img/google.png" alt="" id="style-ziJbr" class="style-ziJbr">
+    </button>
+   <button id="vscode" class="buttondefault vscode" data-link="https://code.visualstudio.com/">
+  <img src="https://duckos--fultonhorecky2.repl.co/system/media/vscode_icon.png" alt="" id="style-gnToi" class="style-gnToi">
+</button>
+
+    <script>
+      const buttons = document.querySelectorAll("button");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    const newWindow = window.open("about:blank", "_blank");
+    const iframe = document.createElement("iframe");
+    iframe.src = button.dataset.link;
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
+    newWindow.document.body.appendChild(iframe);
+  });
+});
+
+    </script>
+  </div>
+</div>
+
+
+<div class="sd-tabs" dark>
+   
+  <input class="sd-tab-radio" name="tabs" tabindex="1" type="radio" id="tabone" checked="checked">
+  <label class="sd-tab-label" for="tabone">
+    <div class="sd-tab-desc">Home</div>
+    <div class="sd-tab-close" onclick="this.parentElement.remove()"></div>
+  </label>
+  <div class="sd-tab-content" tabindex="1">
+    <iframe src="proxy.html" class="sd-tab-iframe"></iframe>
+  </div>
+
+  <input class="sd-tab-radio" tabindex="1" name="tabs" type="radio" id="tabtwo">
+  <label class="sd-tab-label" for="tabtwo">
+    <div class="sd-tab-desc">New Tab</div>
+    <div class="sd-tab-close" onclick="this.parentElement.remove()"></div>
+  </label>
+  <div class="sd-tab-content" tabindex="1">
+    <iframe src="https://km9nqy-8080.csb.app/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2Fue%60hr%3Fjl%3Fel%26qa%3FX%24vgd%3F0chWKGwhw7vFKh-5-ChZyh4iEJfsjABCQRAeJ/" class="sd-tab-iframe"></iframe>
+  </div>
+
+  <input class="sd-tab-radio" tabindex="1" name="tabs" type="radio" id="tabthree">
+  <label class="sd-tab-label" for="tabthree">
+    <div class="sd-tab-desc">New Tab</div>
+    <div class="sd-tab-close" onclick="this.parentElement.remove()"></div>
+  </label>
+  <div class="sd-tab-content" tabindex="1">
+    <iframe src="https://km9nqy-8080.csb.app/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2Fue%60hr%3Fjl%3Fel%26qa%3FX%24vgd%3F0chWKGwhw7vFKh-5-ChZyh4iEJfsjABCQRAeJ/" class="sd-tab-iframe"></iframe>
+  </div>
+
+  <div class="new-tab-btn" onclick="openNewTab()">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="2" fill="none"/>
+      <line x1="12" y1="6" x2="12" y2="18" stroke="currentColor" stroke-width="2"/>
+      <line x1="6" y1="12" x2="18" y2="12" stroke="currentColor" stroke-width="2"/>
+    </svg>
+  </div>
+</div>
+
+<script>
+function openNewTab() {
+  const newTabRadio = document.createElement("input");
+  newTabRadio.type = "radio";
+  newTabRadio.name = "tabs";
+  newTabRadio.id = "tab" + (document.querySelectorAll(".sd-tab-radio").length + 1);
+  newTabRadio.className = "sd-tab-radio";
+
+  const newTabLabel = document.createElement("label");
+  newTabLabel.className = "sd-tab-label";
+  newTabLabel.htmlFor = "tab" + (document.querySelectorAll(".sd-tab-radio").length + 1);
+
+  const newTabDesc = document.createElement("div");
+  newTabDesc.className = "sd-tab-desc";
+  newTabDesc.innerHTML = "New Tab";
+
+  const newTabClose = document.createElement("div");
+  newTabClose.className = "sd-tab-close";
+  newTabClose.onclick = function() {
+  const tabContent = document.querySelector("#" + newTabRadio.id + "+ .sd-tab-content");
+  newTabLabel.remove();
+  newTabRadio.remove();
+  tabContent.remove();
+};
+
+
+  newTabLabel.appendChild(newTabDesc);
+  newTabLabel.appendChild(newTabClose);
+
+  const newTabContent = document.createElement("iframe");
+  newTabContent.src = "https://jcd82m-8080.csb.app/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2Fue%60hr%3Fjl%3Fel%26qa%3FX%24vgd%3F0chWKGwhw7vFKh-5-ChZyh4iEJfsjABCQRAeJ/";
+  newTabContent.className = "sd-tab-iframe";
+
+  const newTab = document.createElement("div");
+  newTab.className = "sd-tab-content";
+  newTab.appendChild(newTabContent);
+
+  const sdTabs = document.querySelector(".sd-tabs");
+  sdTabs.appendChild(newTabRadio);
+  sdTabs.appendChild(newTabLabel);
+  sdTabs.appendChild(newTab);
+
+  newTabRadio.checked = true;
+}
+
+</script>
+
